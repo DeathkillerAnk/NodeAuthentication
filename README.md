@@ -1,4 +1,7 @@
-requirements:- mongo
-npm install after cloning 
-service mongod start
-node index.js & open http://localhost:3000/signup 
+login & signup page made using node express passport & mongoose & cool styling. 
+req- node, mongo 
+go to folder and run following commands:- 
+npm install 
+service mongod start 
+node index.js 
+visit localhost:3000 in browser
