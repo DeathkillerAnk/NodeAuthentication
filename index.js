@@ -175,7 +175,7 @@ app.get('/user', isLoggedIn, function(req, res){
   res.send(req.user);
 });
 
-app.get('startups', isL)
+//app.get('startups', isL)
 
 app.listen(3000,() => {
     console.log("started");
