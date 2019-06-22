@@ -167,7 +167,7 @@ function isLoggedIn(req,res,next){
 
 //routes
 app.get("/",function(req,res){
-    res.send('home');
+    res.render("home");
 });
 
 // Endpoint to get current user
